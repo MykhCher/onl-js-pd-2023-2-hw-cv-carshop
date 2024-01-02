@@ -3,8 +3,16 @@
 }
 
 body {
-    background: #8fceff;
+    background: #c0ffba;
     color: #000c;
+}
+
+a {
+    color: #b58024;
+}
+
+a:hover {
+    color: #6e3515;
 }
 
 header {
