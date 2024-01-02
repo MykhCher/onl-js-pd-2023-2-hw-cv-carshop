@@ -3,8 +3,8 @@
 }
 
 body {
-    background: #c0ffba;
-    color: #000c;
+    background: #97db91;
+    color: #000b;
 }
 
 a {
@@ -38,8 +38,19 @@ header img {
     flex: 50%;
 }
 
-/* footer layout */
+/* main content */
+.model {
+    padding-left: 8px;
+}
 
+/* feedback block */
+.feedback {
+    margin: 20px;
+    padding: 3px 10px 10px 30px;
+    background-color: #fff3;
+}
+
+/* footer layout */
 footer ul {
     display: flex;
     justify-content: center;
