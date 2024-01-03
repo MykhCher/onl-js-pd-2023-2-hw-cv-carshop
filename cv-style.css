@@ -1,0 +1,20 @@
+body {
+    font-family: "Arial";
+}
+
+.block {
+    color: #00327d;
+}
+
+.place {
+    font-style: italic;
+}
+
+.skill-list {
+    list-style-type: none;
+    color: #000b;
+}
+
+.skill-list li {
+    margin: 9px;
+}
