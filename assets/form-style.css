@@ -1,13 +1,6 @@
 /* nav style */
-
 nav ul {
     list-style-type: none;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-    padding: 0 2vw;
 }
 
 /* buttons style */
