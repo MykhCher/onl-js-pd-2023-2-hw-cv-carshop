@@ -16,26 +16,22 @@ a:hover {
 }
 
 header {
-    display: flex;
+    text-align: center;
 }
 
-header nav {
-    flex: 50%;
+header img, header nav {
+    display: inline-block;
 }
 
 header nav ul {
     list-style-type: none;
-    overflow: hidden;
 }
 
 header nav ul li {
     padding: 20px;
-    float: left
+    display: inline-block;
 }
 
-header img {
-    padding: 38px;
-}
 
 /* main content */
 .model {
@@ -51,15 +47,13 @@ header img {
 
 /* footer layout */
 footer ul {
-    display: flex;
-    justify-content: center;
     list-style: none;
-    width: 100%;
+    text-align: center;
 }
 
 footer ul li {
+    display: inline-block;
     margin: 15px;
-    float: left;
 }
 
 /* table style */
