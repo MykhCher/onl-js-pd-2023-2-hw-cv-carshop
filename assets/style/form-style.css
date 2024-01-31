@@ -1,10 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
 /* nav style */
 nav ul {
     list-style-type: none;
 }
 
-/* buttons style */
-fieldset + div {
-    margin: 10px 24px
+h1 {
+    text-align: center;
 }
 
+.flex {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.flex > fieldset {
+    width: 32%;
+}
+
+fieldset > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    /* flex-flow: column; */
+}
+
+.range {
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+}
+
+fieldset > legend, .buttons > input {
+    font-size: 1.4em;
+}
+
+.buttons {
+    margin: 15px auto;
+    gap: 20px;
+}

@@ -16,126 +16,137 @@
                 <li><a href="./car-shop.html">Back to shop</a></li>
             </ul>
         </nav>
-        <h1>Car Order Form</h1>
+        <h1>Home work for CSS flexbox</h1>
     </header>    
     <main>
         <form>
-            <fieldset>
-                <legend>Personal info</legend>
-                <div>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname">
-                </div>
-                <div>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname">
-                </div>
-                <div>
-                    <label for="birth">Birthday</label>
-                    <input type="datetime-local" name="birth" id="birth">
-                </div>
-                <div>
-                    <fieldset>
-                        <legend>Gender</legend>
-                        <label for="gender1">Male</label>
-                        <input type="radio" name="gender" id="gender1">
-                        <label for="gender2">Female</label>
-                        <input type="radio" name="gender" id="gender2">
-                    </fieldset>
-                </div>
-                <div>
-                    <label for="drivexp">Driving Experience</label>
-                    <select name="drivexp" id="drivexp">
-                        <option value="---" selected>---</option>
-                        <option value="no">No experience</option>
-                        <option value="1-3">1-3</option>
-                        <option value="4-6">4-6</option>
-                        <option value="7-9">7-9</option>
-                        <option value="10+">10+</option>
-                    </select>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Contacts</legend>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="phone">Phone</label>
-                    <input type="tel" name="phone" id="phone">
-                </div>
-                <div>
-                    <label for="addr">Address</label>
-                    <textarea name="addr" id="addr" cols="30" rows="10"></textarea>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Car info</legend>
-                <div>
-                    <label for="brand">Brand</label>
-                    <select name="brand" id="brand">
-                        <option value="---" selected>---</option>
-                        <option value="Ford">Ford</option>
-                        <option value="Toyota">Toyota</option>
-                        <option value="BMW">BMW</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="model">Model</label>
-                    <select name="model" id="model">
-                        <option value="---" selected>---</option>
-                        <option value="">Mondeo</option>
-                        <option value="">Fiesta</option>
-                        <option value="">RAV4</option>
-                        <option value="">Camry</option>
-                        <option value="">X5</option>
-                        <option value="">i4</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="used">Used</label>
-                    <input type="checkbox" name="used" id="used">
-                </div>
-                <div>
-                    <fieldset>
-                        <legend>Color</legend>
-                        <label for="c1">Red</label>
-                        <input type="radio" name="color" id="c1">
-                        <label for="c2">Black</label>
-                        <input type="radio" name="color" id="c2">
-                        <label for="c3">Blue</label>
-                        <input type="radio" name="color" id="c3">
-                        <label for="c4">White</label>
-                        <input type="radio" name="color" id="c4">
-                        <label for="c5">Grey</label>
-                        <input type="radio" name="color" id="c5">
-                    </fieldset>
-                </div>
-                <div class="range">
-                    <label for="range">Price</label>
-                    <input
-                        type="range"
-                        id="range"
-                        name="price"
-                        min="10"
-                        max="80"
-                        step="10"
-                        list="money"
-                    >
-                    <datalist id="money">
-                        <option value="10" label="10"></option>
-                        <option value="20" label="20"></option>
-                        <option value="30" label="30"></option>
-                        <option value="40" label="40"></option>
-                        <option value="50" label="50"></option>
-                        <option value="60" label="60"></option>
-                        <option value="70" label="70"></option>
-                        <option value="80" label="80"></option>
-                    </datalist>
-                </div>
-            </fieldset>
-            <div>
+            <div class="flex">
+                <fieldset>
+                    <legend>Personal info</legend>
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname">
+                    </div>
+                    <div>
+                        <label for="birth">Birthday</label>
+                        <input type="datetime-local" name="birth" id="birth">
+                    </div>
+                    <div>
+                        <div>Gender</div>
+                        <div>
+                            <label for="gender1">Male</label>
+                            <input type="radio" name="gender" id="gender1">
+                        </div>
+                        <div>
+                            <label for="gender2">Female</label>
+                            <input type="radio" name="gender" id="gender2">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="drivexp">Driving Experience</label>
+                        <select name="drivexp" id="drivexp">
+                            <option value="---" selected>---</option>
+                            <option value="no">No experience</option>
+                            <option value="1-3">1-3</option>
+                            <option value="4-6">4-6</option>
+                            <option value="7-9">7-9</option>
+                            <option value="10+">10+</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contacts</legend>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                    <div>
+                        <label for="addr">Address</label>
+                        <textarea name="addr" id="addr" cols="15" rows="5"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Car info</legend>
+                    <div>
+                        <label for="brand">Brand</label>
+                        <select name="brand" id="brand">
+                            <option value="---" selected>---</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="BMW">BMW</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="model">Model</label>
+                        <select name="model" id="model">
+                            <option value="---" selected>---</option>
+                            <option value="">Mondeo</option>
+                            <option value="">Fiesta</option>
+                            <option value="">RAV4</option>
+                            <option value="">Camry</option>
+                            <option value="">X5</option>
+                            <option value="">i4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="used">Used</label>
+                        <input type="checkbox" name="used" id="used">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="c1">Red</label>
+                            <input type="radio" name="color" id="c1">
+                        </div>
+                        <div>
+                            <label for="c2">Black</label>
+                            <input type="radio" name="color" id="c2">
+                        </div>
+                        <div>
+                            <label for="c3">Blue</label>
+                            <input type="radio" name="color" id="c3">
+                        </div>
+                        <div>
+                            <label for="c4">White</label>
+                            <input type="radio" name="color" id="c4">
+                        </div>
+                        <div>
+                            <label for="c5">Grey</label>
+                            <input type="radio" name="color" id="c5">
+                        </div>
+                    </div>
+                    <div class="range">
+                        <label for="range">Price</label>
+                        <input
+                            type="range"
+                            id="range"
+                            name="price"
+                            min="10"
+                            max="80"
+                            step="10"
+                            list="money"
+                        >
+                        <datalist id="money">
+                            <option value="10" label="10"></option>
+                            <option value="20" label="20"></option>
+                            <option value="30" label="30"></option>
+                            <option value="40" label="40"></option>
+                            <option value="50" label="50"></option>
+                            <option value="60" label="60"></option>
+                            <option value="70" label="70"></option>
+                            <option value="80" label="80"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="flex buttons">
                 <input type="reset" value="Cancel">
                 <input type="submit" value="Sumbit">
             </div>
